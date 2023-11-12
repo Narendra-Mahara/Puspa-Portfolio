@@ -1,0 +1,230 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #DDFFD9;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #EC8F5E;
+
+
+}
+
+.nav {
+    position: fixed;
+    top: 0px;
+    background-color: #D7907B;
+    height: 55px;
+    width: 1366px;
+}
+
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.left-side {
+    /* background-color: red; */
+    height: 55px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.right-side {
+    margin-left: 100px;
+    /* background-color: yellow; */
+    height: 55px;
+    width: 80%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+   
+}
+    
+
+li {
+    font-size: 18px;
+    margin-right: 30px;
+    list-style: none;
+    display: inline;
+}
+
+.for-hover:hover {
+    border-bottom: 1px solid #42213D;
+    color: #45072b;
+}
+
+
+/* This is for main body */
+
+.for-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pic {
+    
+    background-image: url("/Photos/girl-dp-cartoon-1.jpg");
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+    border: 1.5px solid pink;
+    border-radius: 50%;
+    margin-top: 100px;
+}
+
+.discription {
+    margin-top: 10px;
+    height: 150px;
+    font-size: 52px;
+    text-align: center;
+    color: #000000;
+    
+}
+
+.first-hr {
+    margin-top: 5px;
+    border: none;
+    height: 5px;
+    background-color: #000000;
+}
+
+.middle-hr {
+    text-align: center;
+    margin: 4px 0px 0px 60px;
+    
+    border: none;
+    height: 5px;
+    width: 75%;
+    background-color: #000000;
+}
+
+.last-hr {
+    
+    margin: 4px 0px 0px 111px;
+    width: 50%;
+   
+    border: none;
+    height: 5px;
+    background-color: #000000;
+}
+
+
+
+/* <--------------------------------------------------------------------- */
+/* This is for about me section */
+
+.about-heading {
+    text-align: center;
+    margin-top: 15px;
+ 
+   
+}
+ 
+u {
+    color: black;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+    margin-top: 100px;
+    height: 550px;
+    padding: 50px 50px 0px 50px;
+    /* background-color: #000000; */
+}
+
+/* <--------------------------------------------------------------------- */
+/* This is for contact me section */
+
+
+.contact-me {
+    color: black;
+    font-size: 20px;
+    margin-top: 100px;
+    height: 550px;
+    padding: 50px 50px 0px 50px;
+}
+
+.form {
+    margin-top: 50px;
+    height: 400px; 
+    background-color: #FFD28F;
+    padding-left: 50px;
+    color: black;
+}
+
+input {
+    display: block;
+    
+}
+
+.form-area {
+    height: 50px;
+    width: 500px;
+}
+
+.button {
+    margin-top: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    width: 70px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(118, 5, 24);
+   
+}
+
+
+/* This is for hire me section */
+
+.hire-me {
+    color: black;
+    font-size: 20px;
+    margin-top: 100px;
+    height: 550px;
+    padding: 50px 50px 0px 50px;
+    text-align: center;
+}
+
+.icons {
+    color: blue;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#logo-style {
+    font-size: 50px;
+}
+
+i:hover {
+    cursor: pointer;
+}
