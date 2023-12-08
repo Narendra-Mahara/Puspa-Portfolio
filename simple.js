@@ -14,3 +14,15 @@
         
         
     }
+
+    burger = document.querySelector('.burger')
+    nav = document.querySelector('.nav')
+    right_side = document.querySelector('.right_side')
+    
+    burger.addEventListener('click', ()=>{
+        right_side.classList.toggle('v-class');
+        nav.classList.toggle('h-nav');
+
+    })
+
+

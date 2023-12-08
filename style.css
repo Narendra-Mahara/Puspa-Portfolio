@@ -20,9 +20,23 @@ body {
     top: 0px;
     background-color: #922c0d;
     height: 55px;
-    width: 1366px;
+    width: 100%;
 }
 
+.burger {
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+
+.line {
+    width: 30px;
+    background-color: white;
+    height: 3.5px;
+    margin: 5px 3px;
+}
 
 .nav-bar {
     display: flex;
@@ -41,7 +55,7 @@ body {
     font-size: 25px;
 }
 
-.right-side {
+.right_side {
     margin-left: 100px;
     /* background-color: yellow; */
     height: 55px;
@@ -70,7 +84,7 @@ li {
 
 .for-hover:hover {
     border-bottom: 1px solid #42213D;
-    color: #45072b;
+    color: #ff2803;
 }
 
 
@@ -104,6 +118,7 @@ li {
 }
 
 .first-hr {
+    width: 100%;
     margin-top: 5px;
     border: none;
     height: 5px;
@@ -229,3 +244,120 @@ input {
 i:hover {
     cursor: pointer;
 }
+
+.footer {
+    /* position: fixed;
+    top: 0px; */
+    background-color: #922c0d;
+    height: 55px;
+    width: 100%;
+
+}
+
+.copyright {
+    text-align: center;
+}
+.credit-to-me {
+    text-align: center;
+}
+
+/* <-------------------For Responsive------------------------------> */
+
+
+@media  screen and (max-width: 680px) {
+
+    .form-area {
+        width: 300px;
+    }
+
+    .left-side {
+        font-size: 20px;
+    }
+
+    .discription {
+        margin-top: 10px;
+        height: 150px;
+        font-size: 25px;
+       
+    }
+
+    .hide{
+       visibility: hidden;
+    }
+
+    .right_side{
+        margin-left: 0px;
+    }
+
+    
+
+    li {
+        font-size: 12px;
+    }
+
+}
+
+    @media  screen and (max-width: 500px) {
+
+    .left-side {
+        position: absolute;
+        top: 0;
+    }
+
+    .right_side{
+        height: 120px;
+    }
+     
+      .burger {
+        display: block;
+    }
+
+
+    .nav-bar {
+        height: 2000px;
+       flex-direction: column;
+       transition: all 0.3s ease-out;
+    }
+
+    ul {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    ul li{
+        margin-top: 10px;
+    }
+
+    .h-nav {
+        height: 200px;
+    }
+
+    .v-class {
+        opacity: 0;
+    }
+
+    }  
+    
+   
+
+    @media  screen and (max-width: 465px) {
+        .form-area {
+            height: 100px;
+            width: 210px;
+        }
+    }
+
+        
+      
+
+    @media  screen and (max-width: 370px) {
+            .form-area {
+                height: 100px;
+                width: 160px;
+            }
+       
+        }
+
+    
+             
+                
