@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    background-color: #EC8F5E;
+    background-color: #D7907B;
 
 
 }
@@ -18,7 +18,7 @@ body {
 .nav {
     position: fixed;
     top: 0px;
-    background-color: #D7907B;
+    background-color: #922c0d;
     height: 55px;
     width: 1366px;
 }
