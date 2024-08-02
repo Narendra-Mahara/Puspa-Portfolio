@@ -45,7 +45,6 @@ body {
 }
 
 .left-side {
-    /* background-color: red; */
     height: 55px;
     width: 250px;
     display: flex;
@@ -57,7 +56,6 @@ body {
 
 .right_side {
     margin-left: 100px;
-    /* background-color: yellow; */
     height: 55px;
     width: 80%;
 }
