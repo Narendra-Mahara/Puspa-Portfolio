@@ -1,129 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-   
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <title>Puspa Mahara</title>
-</head>
-<body>
+  </head>
+  <body>
+    <div class="menu hidden">
+      <ul>
+        <li>
+          <i class="fa-solid fa-house"></i>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <i class="fa-solid fa-book"></i><a href="#about-me">About Me</a>
+        </li>
+        <li>
+          <i class="fa-solid fa-address-book"></i
+          ><a href="#contact-me">Contact Me</a>
+        </li>
+        <li>
+          <i class="fa-solid fa-money-bill-wave"></i
+          ><a href="#hire-me">Hire Me</a>
+        </li>
+      </ul>
+    </div>
+
     <!-- This is a nav bar  ----->
     <header>
-    <nav class="nav ">
-        <div class="nav-bar h-nav">
-            
-            <div class="left-side">
-              <a href="/"> Puspa Mahara</a> 
-            </div>
-            
-            <div class="right_side v-class">
-                <ul >
-                    <li><a class="for-hover" href="/">Home</a></li>
-                    <li><a class="for-hover" href="#about-me">About Me</a> </li>
-                    <li><a class="for-hover" href="#contact-me">Contact Me</a> </li>
-                    <li><a class="for-hover" href="#hire-me">Hire Me</a> </li>
-                </ul>
-            </div>
+      <nav class="nav">
+        <div class="nav-bar">
+          <div class="left-side">
+            <a href="/"> Puspa Mahara</a>
+          </div>
 
+          <div class="right_side">
+            <ul>
+              <li><a class="for-hover" href="#">Home</a></li>
+              <li><a class="for-hover" href="#about-me">About Me</a></li>
+              <li><a class="for-hover" href="#contact-me">Contact Me</a></li>
+              <li><a class="for-hover" href="#hire-me">Hire Me</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="cross">
+          <i class="fa-solid fa-x"></i>
         </div>
         <div class="burger">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
         </div>
-    </nav>
-</header>
+      </nav>
+    </header>
 
-<!-- <------------------------------------------------------------------------------------------
-    <!-- This is for pic and some discription about me   -->
+    <!-- <------------------------------------------------------------------------------------------
+    This is for pic and some discription about me -->
 
-    <main>
-        <div class="for-home">
+    <main class="main">
+      <div class="for-home">
+        <div class="pic"></div>
 
-            <div class="pic">
-
-            </div>
-
-            <div class="discription">
-                Hi,<br>
-                Puspa Mahara
-                Here !
-            <hr class="first-hr line">
-            <hr class="middle-hr hide">
-            <hr class="last-hr hide">
-            </div>
-       
-         </div>
-        
-<!-- <------------------------------------------------------------------------------------------> 
-
-<!-- This is for about me page  -->
-
-         <div class="about-me" id="about-me">
-            <h2 class="about-heading"><u>About Me</u></h2>
-            Hi there! 👋 I'm Puspa Mahara, currently pursuing my BBA degree in the 3rd semester in Brixton College. 🎓 Passionate about the dynamic world of business, I strive to enhance my understanding and contribute positively to the field. Join me on this fascinating journey as I seek knowledge, embrace challenges, and embrace growth. Let's connect and inspire one another! 🌱 #BBAJourney #BusinessPassion #ContinuousLearning
-         </div>
-
-
-
-         <!-- <------------------------------------------------------------------------------------> 
-            
-         <div class="contact-me" id="contact-me">
-            <h2 class="about-heading"><u>Contact Me</u></h2>
-            <div class="form">
-                
-                Name:<input type="text" >
-                Address:<input type="text" >
-                Email:<input type="email" pattern=".+@example\.com" required />
-                Phone Number:<input type="text" minlength="10" required>
-                Message:
-                <input type="text" class="form-area">
-
-                <button class="button" onclick="formsubmit()">Submit</button>
-                
-            </div>
+        <div class="discription">
+          Hi,<br />
+          <span> Puspa Mahara Here !</span>
+          <hr class="first-hr line" />
+          <hr class="middle-hr hide" />
+          <hr class="last-hr hide" />
         </div>
+      </div>
 
+      <!-- <------------------------------------------------------------------------------------------>
 
-        <!-- <------------------------------------------------------------------------------------> 
-        <!-- This is for hire me section -->
-        <div class="hire-me" id="hire-me">
-            <h2 class="about-heading"><u>Hire Me</u></h2>
-            If you want to hire me then please DM me on the following accounts
+      <!-- This is for about me page  -->
 
-            <div class="icons">
+      <div class="about-me" id="about-me">
+        <h2 class="about-heading"><u>About Me</u></h2>
+        <p>
+          Hi there! 👋 I'm Puspa Mahara, currently pursuing my BBA degree in the
+          5<sup>th</sup> semester in Brixton College. 🎓 Passionate about the
+          dynamic world of business, I strive to enhance my understanding and
+          contribute positively to the field. Join me on this fascinating
+          journey as I seek knowledge, embrace challenges, and embrace growth.
+          Let's connect and inspire one another! 🌱 #BBAJourney #BusinessPassion
+          #ContinuousLearning
+        </p>
+      </div>
 
-                 <div class="facebook" id="logo-style">
-                   
-              <a href="https://www.facebook.com/puspa.mahara.779" target="_blank"> <i class="fa-brands fa-facebook" style="color: blue;" ></i></a>  
-             
-            </div>
-            <div class="instagram" id="logo-style">
-              <a href="https://www.instagram.com/puspa_mahara_/" target="_blank"> <i class="fa-brands fa-instagram" style="color: #CA37AE;"></i></a> 
-            </div>
-            <div class="linkedin" id="logo-style" onclick="AlertMessage()">
-                <i class="fa-brands fa-linkedin" style="color: blue;" ></i>
-            </div>
-            <div class="github" id="logo-style" onclick="AlertMessage()">
-                <i class="fa-brands fa-github" style="color: black;"  ></i>
-            </div>
-            </div>
-           
+      <!-- <------------------------------------------------------------------------------------>
+
+      <div class="contact-me" id="contact-me">
+        <h2 class="about-heading"><u>Contact Me</u></h2>
+        <form class="form">
+          Name:<input type="text" placeholder="Enter your name." required />
+          Address:<input
+            type="text"
+            placeholder="Enter your address."
+            required
+          />
+          Email:<input
+            type="email"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}"
+            required
+            placeholder="Enter your email."
+          />
+          Phone Number:<input
+            type="text"
+            minlength="10"
+            required
+            placeholder="Enter your phone number."
+          />
+          Message:
+          <textarea
+            class="form-area"
+            rows="10"
+            cols="500"
+            placeholder="Write your message here."
+          ></textarea>
+
+          <button class="button">Submit</button>
+        </form>
+      </div>
+
+      <!-- <------------------------------------------------------------------------------------>
+      <!-- This is for hire me section -->
+      <div class="hire-me" id="hire-me">
+        <h2><u>Hire Me</u></h2>
+        <span>
+          &lt; If you want to hire me then please DM me on the following
+          accounts &gt;</span
+        >
+
+        <div class="icons">
+          <div class="facebook" id="logo-style">
+            <a href="https://www.facebook.com/puspa.mahara.779" target="_blank">
+              <i class="fa-brands fa-facebook" style="color: blue"></i
+            ></a>
+          </div>
+          <div class="instagram" id="logo-style">
+            <a href="https://www.instagram.com/puspa_mahara_/" target="_blank">
+              <i class="fa-brands fa-instagram" style="color: #ca37ae"></i
+            ></a>
+          </div>
+          <div class="linkedin" id="logo-style" onclick="AlertMessage()">
+            <i class="fa-brands fa-linkedin" style="color: blue"></i>
+          </div>
+          <div class="github" id="logo-style" onclick="AlertMessage()">
+            <i class="fa-brands fa-github" style="color: black"></i>
+          </div>
         </div>
-
+      </div>
     </main>
 
     <footer class="footer">
-       <p class="copyright">&copy;<a href="https://www.puspamahara.com.np">Puspa Mahara-2023 </a> 
-    </p> 
-    <p class="credit-to-me">|| Designed and built by- <a href="https://www.narendrasinghmahara.com.np">Narendra Mahara ||</a></p>
+      <p class="copyright">&copy; <a href="/">Puspa Mahara-2024 </a></p>
+      <p class="credit-to-me">
+        || Designed and built by -
+        <a href="https://www.narendrasinghmahara.com.np">Narendra Mahara ||</a>
+      </p>
     </footer>
-    
+
     <script src="simple.js"></script>
-</body>
+  </body>
 </html>
